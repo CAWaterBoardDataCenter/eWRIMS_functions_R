@@ -6,10 +6,10 @@
 # VLZ 2021.01.26
 #
 ######## Set up R packages ######################################
-install.packages(c("dplyr", "data.table","readr", "ggplot2", "scales"))
+install.packages(c("here", "dplyr", "data.table","readr", "ggplot2", "scales"))
 
 # open the packages; need to do this every time you open the file.
-
+library(here)
 library(dplyr)
 library(data.table) 
 library(readr)
@@ -19,7 +19,7 @@ library(scales)
 ########## HOW TO SOURCE DATA AND FILES CORRECTLY #########
 
 # the functions file needs to be sourced for this script to work
-source("C:/Users/vzimmer/Documents/R/eWRIMS_read/eWRIMS/FUNCTIONS/ewrims.R")
+source(here("ewrims.R"))
 
 ######## READ IN DATA FILES ################
 # Read in flat file (must be connected via HQ intranet for flat file access OR have downloaded locally) --------------------
