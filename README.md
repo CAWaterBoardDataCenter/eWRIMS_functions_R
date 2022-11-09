@@ -9,7 +9,7 @@ Bulk processing of eWRIMS code is done via the "flat files", e.g. weekly data du
 
 Individual records can be examined in detail in the [eWRIMS database (public)](https://www.waterboards.ca.gov/waterrights/water_issues/programs/ewrims/)
 
-Most code is written assuming the user has access to the internal flat files and internal databases, which are nearly identical. Code may be edited to access the public databases, although State Water Board staff should use internal databases. 
+Most code is written assuming the user has access to the internal flat files and internal databases, which are nearly identical to the public databases. Code may be edited to access the public databases. 
 
 Questions can be addressed by Valerie Zimmer [valerie.zimmer@waterboards.ca.gov](mailto:valere.zimmer@waterboards.ca.gov)
 
